@@ -19,9 +19,9 @@ To install this plugin on your internal WordPress websites, follow these steps:
 5. Choose the downloaded plugin zip file and click "Install Now."
 6. Activate the plugin.
 
-## Usage for multi step form application
+### Usage for multi step form application
 
-Once the plugin is activated, you can get the form UI by using the following shortcode [multi_step form_id='1']. (Replace "form_id" with actual form id)
+Once the plugin is activated, you can get the form UI by using the following shortcode [rcncp_multi_step_application form_id='1']. (Replace "form_id" with actual form id)
 
 ## Contributing (Internal Team)
 
@@ -37,8 +37,12 @@ This project is private and only for internal use.
 
 ---
 
-## Contact
-I am junaid bin jaman
-A freelance developer of RCN official website and author of RCN Custom Plugin
-So feel free to contact me if you have confusion with something
-[Contact Me](mailto:me@junaidbinjaman.com)
+## Contact Me
+
+Hello, I'm Junaid Bin Jaman, a freelance developer responsible for the RCN Official Website and the author of the RCN Custom Plugin. If you have any questions, need assistance, or would like to discuss any aspect of the RCN project, please don't hesitate to reach out to me.
+
+I'm here to help and provide support for any inquiries or concerns you may have. Feel free to contact me via email:
+
+- Email: [junaid@example.com](mailto:junaid@example.com)
+
+Your feedback and collaboration are essential to the success of the RCN project. I look forward to hearing from you and assisting in any way I can.
