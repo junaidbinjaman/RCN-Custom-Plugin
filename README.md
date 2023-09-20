@@ -21,7 +21,7 @@ To install this plugin on your internal WordPress websites, follow these steps:
 
 ### Usage for multi step form application
 
-Once the plugin is activated, you can get the form UI by using the following shortcode [rcncp_multi_step_application form_id='1']. (Replace "form_id" with actual form id)
+Once the plugin is activated, you can get the form UI by using the following shortcode `[rcncp_multi_step_application form_id='1']`. (Replace "form_id" with actual form id)
 
 ## Contributing (Internal Team)
 

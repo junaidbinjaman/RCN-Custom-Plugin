@@ -65,7 +65,6 @@ register_deactivation_hook( __FILE__, 'deactivate_rcncp' );
  * admin-specific hooks, and public-facing site hooks.
  */
 require plugin_dir_path( __FILE__ ) . 'includes/class-rcncp.php';
-require plugin_dir_path( __FILE__ ) . 'text.php';
 
 /**
  * Begins execution of the plugin.
