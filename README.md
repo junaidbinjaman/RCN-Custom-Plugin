@@ -1,6 +1,6 @@
 # RCN Custom Plugin
 
-![RCN Custom Plugin Logo](https://raw.githubusercontent.com/junaidbinjaman/RCN-Custom-Plugin/main/admin/img/rcn-custom-plugin.png?token=GHSAT0AAAAAACG6JAYAQRUKBGKA35DEV7JWZIKNJZA)
+![RCN Custom Plugin Logo](/admin/img/rcn-ustom-plugin.png)
 
 Welcome to the RCN Custom Plugin repository! This WordPress plugin is designed for internal usage to enhance our WordPress websites with custom functionality. Below, you'll find information on how to get started with the plugin and its features.
 
