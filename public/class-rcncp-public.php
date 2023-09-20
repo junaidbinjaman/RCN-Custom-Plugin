@@ -95,4 +95,33 @@ class Rcncp_Public {
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/rcncp-public.js', array( 'jquery' ), $this->version, false );
 	}
+
+	/**
+	 * Register shortcodes
+	 *
+	 * @since   1.0.0
+	 */
+	public function rcncp_multi_step_application() {
+
+		/**
+		 * Require shortcode callback functions class
+		 *
+		 * @var  string Initializing the Rcncp_Shortcode_Callbacks class.
+		 */
+		require_once plugin_dir_path( __DIR__ ) . 'includes/class-rcncp-shortcode-callbacks.php';
+		$shortcode_callback = new Rcncp_Shortcode_Callbacks();
+
+		/**
+		 * Calling add_shortcode() inside this function block.
+		 *
+		 * Write your callback function inside includes/class-shortcodes.php
+		 * defined in Rcncp_Loader as all of the hooks are defined
+		 * in that particular class.
+		 *
+		 * The Rcncp_Loader will then create the relationship
+		 * between the defined hooks and the functions defined in this
+		 * class.
+		 */
+		add_shortcode( 'rcncp_multi_step_application', array( $shortcode_callback, 'multi_step_application' ) );
+	}
 }
