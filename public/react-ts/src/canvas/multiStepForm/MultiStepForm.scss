@@ -1,0 +1,41 @@
+// Import variables
+@import '../../style/color';
+@import '../../style/font';
+
+.rcncp-multi-step-form-canvas {
+  .top-meta-bar {
+    display: flex;
+    p {
+      display: inline;
+      margin-right: 20px;
+    }
+    @media (max-width: 550px) {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .form-section {
+    .form-wrapper {
+      width: 600px;
+      height: fit-content;
+      margin: 50px auto;
+      background-color: $secondary-bg-color;
+      border-radius: 8px;
+      padding: 20px 40px;
+    }
+  }
+
+  .prev-next-button-section {
+    div {
+        width: 680px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            width: 200px;
+        }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+/**
+ * Global Button Styling Mixin
+ *
+ * The `button` mixin defines a set of global styles for buttons.
+ *
+ * @param {String} $color - The text color of the button. Default is `white`.
+ * @param {String} $bg-color - The background color of the button. Default is `$primary-color`.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include button($color, $bg-color);
+ * ```
+ *
+ * @author junaid bin jaman
+ * @since 1.0.0
+ */
+
+@mixin button($color: white, $bg-color: $primary-color) {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: $primary-font-family;
+  text-transform: uppercase;
+  color: $color;
+  background-color: $bg-color;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+/**
+ * Global Paragraph Styling Mixin
+ *
+ * The `paragraph` mixin defines a set of global styles for body texts.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include paragraph;
+ * ```
+ *
+ * @author junaid bin jaman
+ * @since 1.0.0
+ */
+
+@mixin paragraph {
+  line-height: 19px;
+  font-family: $primary-font-family;
+  font-size: 16px;
+  font-weight: 400;
+  color: $white-color;
+}
+
+/**
+ * Global h1 Styling Mixin
+ *
+ * The `h1` mixin defines a set of global styles for page h1 heading.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h1;
+ * ```
+ *
+ * @author junaid bin jaman
+ * @since 1.0.0
+ */
+
+@mixin h1 {
+  color: $white-color;
+  font-family: $primary-font-family;
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+/**
+ * Global h2 Styling Mixin
+ *
+ * The `h2` mixin defines a set of global styles for page h2 heading.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h2;
+ * ```
+ *
+ * @author junaid bin jaman
+ * @since 1.0.0
+ */
+
+@mixin h2 {
+  color: $white-color;
+  font-family: $primary-font-family;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 37px;
+}
+
+/**
+ * Global h3 Styling Mixin
+ *
+ * The `h3` mixin defines a set of global styles for page h3 heading.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h3;
+ * ```
+ *
+ * @author junaid bin jaman
+ * @since 1.0.0
+ */
+
+@mixin h3 {
+  color: $white-color;
+  font-family: $primary-font-family;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 25px;
+}

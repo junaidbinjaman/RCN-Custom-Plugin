@@ -1,0 +1,155 @@
+// Import variables
+@import './font';
+@import './color';
+@import './mixin';
+
+/**
+* PLEASE NOTE! Do not add style for body tag.
+*
+* Styles within body will not work on production
+* Because we are rendering the react app inside a div on Wordpress created by shortcode.
+* So the body of ...
+*/
+.srccp-body { // This class doesn't exist on production - dev only class.
+  margin: 0;
+  color: $white-color;
+  font-family: $primary-font-family;
+  background-color: $black-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+* Canvas Global Styling.
+*
+* Add this class to your component wrapper div
+* to get the global canvas style.
+*/
+.rcncp-container {
+  margin: 0;
+  color: $white-color;
+  font-family: $primary-font-family;
+  background-color: $black-color;
+  max-width: 1140px;
+  height: 100vh;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Button Styling
+ *
+ * The `button` mixin is used to style buttons.
+ *
+ * @param {String} $color - The text color of the button. Default is $white.
+ * @param {String} $bg-color - The background color of the button. Default is $primary.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include button($color, $bg-color);
+ * ```
+ */
+.rcncp-button {
+  @include button();
+}
+
+/**
+ * Paragraph Styling
+ *
+ * The `paragraph` mixin is used to style paragraph.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include paragraph;
+ * ```
+ */
+.rcncp-paragraph {
+  @include paragraph;
+}
+
+/**
+ * H1 Styling
+ *
+ * The `h1` mixin is used to style h1 element.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h1;
+ * ```
+ */
+.rcncp-h1 {
+  @include h1;
+}
+
+/**
+ * H2 Styling
+ *
+ * The `h2` mixin is used to style h2 element.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h2;
+ * ```
+ */
+.rcncp-h2 {
+  @include h2;
+}
+
+/**
+ * H3 Styling
+ *
+ * The `h3` mixin is used to style h3 element.
+ *
+ * Example Usage:
+ *
+ * ```
+ * @include h3;
+ * ```
+ */
+.rcncp-h3 {
+  @include h3;
+}
+
+/**
+ * Text Input Styling
+ */
+
+.rcncp-input {
+  display: block;
+  color: $black-color;
+  background-color: $white-color;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: $primary-font-family;
+  border: none;
+  width: 96.5%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/**
+ * Icon Default Styling
+ */
+
+.rcncp-icon {
+  color: $white-color;
+}
+
+/**
+ * Option Default styling
+ */
+
+.rcncp-select {
+  color: $black-color;
+  font-family: $primary-font-family;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  border-radius: 8px;
+}
