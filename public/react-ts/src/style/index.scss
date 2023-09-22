@@ -26,15 +26,17 @@
 * to get the global canvas style.
 */
 .rcncp-container {
-  margin: 0;
   color: $white-color;
   font-family: $primary-font-family;
   background-color: $black-color;
   max-width: 1140px;
-  height: 100vh;
   margin: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 }
 
 /**
@@ -127,7 +129,7 @@
   line-height: 20px;
   font-family: $primary-font-family;
   border: none;
-  width: 96.5%;
+  width: 95%;
   border-radius: 8px;
   padding: 10px;
 }
