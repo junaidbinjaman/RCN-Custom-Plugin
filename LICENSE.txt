@@ -1,7 +1,0 @@
-## License
-
-This RCN Custom Plugin is provided exclusively for internal use within our organization. All rights to the software are reserved. Redistribution, modification, or usage outside of our organization is strictly prohibited without explicit written permission from the author.
-
-For any questions or licensing inquiries, please contact the author.
-
-© [2023] [Reality Capture Network]
